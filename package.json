@@ -1,7 +1,7 @@
 {
   "name": "virtual-art-exhibition",
   "version": "1.0.0",
-  "homepage": "https://chiragvij20.github.io/ArtExhibition/",
+  "homepage": "https://chiragvij20.github.io/ArtExhibition",
   "scripts": {
     "start": "parcel src/index.html --open",
     "clean": "",
@@ -25,7 +25,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/chiragvij20/ArtExhibition.git"
+    "url": "git+https://github.com/chiragvij20/ArtExhibition.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chiragvij20/ArtExhibition/issues"
   },
   "description": ""
 }
