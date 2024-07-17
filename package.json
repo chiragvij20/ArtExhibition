@@ -1,11 +1,10 @@
 {
   "name": "virtual-art-exhibition",
   "version": "1.0.0",
-  "description": "",
-  "homepage": "https://chiragvij20.github.io/ArtExhibition",
+  "homepage": "https://chiragvij20.github.io/ArtExhibition/",
   "scripts": {
     "start": "parcel src/index.html --open",
-    "clean": "rm -rf dist/*",
+    "clean": "",
     "build:parcel": "parcel build src/index.html --no-content-hash --no-source-maps --public-url ./",
     "build": "npm run clean && npm run build:parcel",
     "predeploy": "npm run build",
@@ -23,5 +22,10 @@
     "events": "^3.3.0",
     "gh-pages": "^6.1.1",
     "parcel-bundler": "^1.12.5"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chiragvij20/ArtExhibition.git"
+  },
+  "description": ""
 }
